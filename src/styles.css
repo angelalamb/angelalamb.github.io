@@ -137,6 +137,14 @@ body {
         URW Palladio L, Nimbus Roman No9 L, serif;
 }
 
+.testimonial-header {
+    text-align: center;
+    font-size: 30px;
+    font-family: Perpetua, Baskerville, Big Caslon, Palatino Linotype, Palatino,
+        URW Palladio L, Nimbus Roman No9 L, serif;
+    margin-bottom: -30px;
+}
+
 /*****************************************************************************/
 /* bio page */
 .align-left-bio {
@@ -145,14 +153,20 @@ body {
 }
 
 .bio-text,
-.testimonial, 
-.teaching-philsophy{
+.testimonial,
+.teaching-philsophy {
     font-family: Perpetua, Baskerville, Big Caslon, Palatino Linotype, Palatino, URW Palladio L, Nimbus Roman No9 L, serif;
     font-size: 18px;
     padding-top: 50px;
     padding-right: 100px;
     padding-bottom: 50px;
     padding-left: 100px;
+}
+
+.welcome-page {
+    font-family: Perpetua, Baskerville, Big Caslon, Palatino Linotype, Palatino, URW Palladio L, Nimbus Roman No9 L, serif;
+    font-size: 24px;
+    text-align: center;
 }
 
 /*****************************************************************************/
@@ -436,6 +450,13 @@ input[type=submit]:hover {
         padding-left: 10px;
     }
 
+    .welcome-page {
+        font-family: Perpetua, Baskerville, Big Caslon, Palatino Linotype, Palatino,
+            URW Palladio L, Nimbus Roman No9 L, serif;
+        font-size: 18px;
+        text-align: center;
+    }
+
     .topnav a:not(:first-child) {
         display: none;
     }
@@ -613,11 +634,8 @@ input[type=submit]:hover {
         -webkit-user-select: none;
     }
 
-    /* Six columns side by side */
+    /* Six photos side by side */
     .column {
         float: left;
         width: 14%;
-        padding: 3px;
-    }
-
-}
+        padding: 3p
