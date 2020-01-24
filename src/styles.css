@@ -638,4 +638,7 @@ input[type=submit]:hover {
     .column {
         float: left;
         width: 14%;
-        padding: 3p
+        padding: 3px;
+    }
+
+}
