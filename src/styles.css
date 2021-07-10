@@ -88,18 +88,38 @@ body {
 
 /*****************************************************************************/
 /* facebook logo */
+/* .logo {
+    background: #4661b0;
+    text-indent: -999em;
+    text-align: center;
+    width: 33px;
+    height: 41px;
+    border-radius: 7px;
+    position: fixed;
+    overflow: hidden;
+    border: 8px solid #4661b0;
+    border-bottom: 0;
+    align in the center of page 
+    margin: 0 auto;
+    bottom:  0;
+}
+*/
+
 .logo {
     background: #4661b0;
     text-indent: -999em;
     width: 33px;
     height: 41px;
+    border: 8px solid #4661b0;
     border-radius: 7px;
+    /* F in facebook logo */
     position: relative;
     overflow: hidden;
-    border: 8px solid #4661b0;
-    border-bottom: 0;
-    /* align in the center of page */
     margin: 0 auto;
+}
+
+.fb-logo {
+   bottom:  0;
 }
 
 .logo:before {
