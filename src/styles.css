@@ -116,6 +116,24 @@ body {
     position: relative;
     overflow: hidden;
     margin: 0 auto;
+    bottom:  0;
+}
+
+.logo {
+    background: #4661b0;
+    text-indent: -999em;
+    width: 33px;
+    height: 41px;
+    border: 8px solid #4661b0;
+    border-radius: 7px;
+    /* F in facebook logo */
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.fb-logo {
+   bottom:  0;
 }
 
 .fb-logo {
@@ -414,7 +432,7 @@ input[type=submit]:hover {
 }
 
 /* CSS stying for mobile devices */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
 
     /* all pages */
     /*body {
