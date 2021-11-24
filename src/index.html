@@ -7,7 +7,7 @@
     <!-- for the bars on the mobile menu -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="description" content="Homepage for Kathleen Covalt violinist.">
-    <meta name=”robots” content=”index,follow”> 
+    <meta name=”robots” content=”index,follow”>
     <title>Kathleen Covalt</title>
 </head>
 <header>
@@ -33,21 +33,33 @@
     Welcome! <br>
     I am a classical violinist, educator and performer based in Rochester, Minnesota. <br>
     I offer private violin & viola lessons to all ages and levels and perform regularly.
-    </p>
-        <img src="../images/home_pic.jpg" class="photo">
-        <a href="https://www.facebook.com/KathleenCovaltViolinist/" target="_blank">
-            <p class="logo">Facebook</p>
-        </a>
-        <script>
-        /* function for mobile dropdown menu */
-        function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
-            }
+</p>
+<img src="../images/home_pic.jpg" class="photo">
+<div class="logos">
+    <a href="https://www.facebook.com/KathleenCovaltViolinist/" target="_blank">
+        <div class="facebook-logo">
+            <div class="facebook-icon"></div>
+        </div>
+    </a>
+    <a href="https://www.instagram.com/kathleencovaltviolin/" target="_blank">
+        <div class="insta-logo">
+            <div class="insta">
+                <div class="innerbox">
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+<script>
+    /* function for mobile dropdown menu */
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
         }
-        </script>
+    }
+</script>
 
 </html>

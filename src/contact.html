@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="styles.css">
     <!-- for the bars on the mobile menu -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <meta name=”robots” content=”index,follow”> 
+    <meta name=”robots” content=”index,follow”>
     <meta name="description" content="Contact info for Kathleen Covalt.">
     <title>Kathleen Covalt Contact</title>
 </head>
@@ -55,20 +55,32 @@
     </div>
     <!-- clear the right side to align the facebook logo -->
     <br clear="right">
-    <a href="https://www.facebook.com/KathleenCovaltViolinist/" target="_blank">
-        <p class="logo">Facebook</p>
-    </a>
+    <div class="logos">
+        <a href="https://www.facebook.com/KathleenCovaltViolinist/" target="_blank">
+            <div class="facebook-logo">
+                <div class="facebook-icon"></div>
+            </div>
+        </a>
+        <a href="https://www.instagram.com/kathleencovaltviolin/" target="_blank">
+            <div class="insta-logo">
+                <div class="insta">
+                    <div class="innerbox">
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
 </body>
 <script>
-/* function for mobile dropdown menu */
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
+    /* function for mobile dropdown menu */
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
     }
-}
 </script>
 
 </html>
